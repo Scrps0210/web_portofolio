@@ -1,0 +1,95 @@
+body {
+    font-family: Hidayatullah DEMO;
+    margin: 0;
+    padding: 0;
+    background-color: #DF6D14; 
+    color: #333; 
+  }
+  
+  header {
+    background-color: #28a745; 
+    color: #DF6D14;
+    text-shadow: 3px 3px 3px #333;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #f8f9fa; 
+    padding: 10px;
+  }
+
+ 
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #28a745; 
+    font-weight: bold; 
+  }
+
+  nav a:hover {
+    background-color: #27445D;
+    border-radius: 2px;
+    color: goldenrod;
+  }
+  
+  main {
+    font-family: cinema sunday demo font;
+    padding: 20px;
+  }
+  
+  .profile-image {
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the image circular */
+    border: 5px solid yellow; /* Yellow stroke */
+    object-fit: cover; /* Ensures the image covers the area */
+}
+
+  #beranda img {
+    max-width: 300px;
+    height: auto;
+    margin: 10px auto;
+    display: block;
+  }
+
+  section {
+    background-color:#f8f9fa;    
+    display: inline-grid;
+    justify-content: space-between; 
+    flex-grow: 2;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 3px 3px 15px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+
+  .contact {
+    background-color: white; 
+    border: 1px solid #333;
+    border-radius: 5px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
